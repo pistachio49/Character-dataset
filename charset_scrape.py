@@ -26,6 +26,8 @@ for language in languages:
     li=soup.find_all('li',{ "class" : "character-list__item" })
     # print(li[0])
     data=list()
+    data.append([])
+    data.append([language.upper()])
 
     for item in li:
         div=item.find_all('div')
