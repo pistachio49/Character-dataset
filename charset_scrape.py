@@ -4,10 +4,11 @@ import pandas as pd
 import requests
 import json
 
-languages=["italian",
-            "french",
-            "japanese-hiragana",
-            "spanish",
+languages=["arab","bengali","english","german","greek","gujarati","hungarian",
+            "italian","japanese-katakana","latin","malayalam","myanmar",
+            "french","oriya","polish","russian","devanagari","saurashtra",
+            "japanese-hiragana","sinhala","tamil","telugu","thai",
+            "spanish","turkish"
             ]
 
 headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36'}
